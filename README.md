@@ -5,10 +5,9 @@ This repository contains materials for a project investigating whether short-ter
 
 What’s here
 - `Executive Summary.pdf` - one-page executive summary of the project and main results.
-- `notebooks/01_analysis_overview.ipynb` - cleaned notebook demonstrating the analysis workflow. Original data are not included. (To be added)
+- `notebooks/01_analysis_overview.ipynb` - cleaned notebook demonstrating the analysis workflow. Original data are not included.
 - `DATA_INSTRUCTIONS.md` - instructions to download the public datasets used in this study. (To be added)
-- `final_model_features.joblib` - the ordered feature list used by the final model. (To be added)
-- `requirements.txt` - packages and versions. (To be added)
+- `requirements.txt` - packages and versions.
 
 Important note about data
 The original dengue and weather datasets used in the analysis are **not** included for privacy and size reasons. See `DATA_INSTRUCTIONS.md` for download links and steps to reproduce the analysis.
