@@ -1,0 +1,14 @@
+# Data instructions
+
+This project uses three public data sources:
+
+1. **Dengue weekly counts (Malaysia)**  
+   Source: Open Dengue Project & Ministry of Health portal.  
+   Open Dengue Project: https://opendengue.org/data.html (Choose the Western Pacific Region & choose national level data). Save as `data/dengue_2011_2021.csv`.
+   Ministry of Health portal: https://www.moh.gov.my/index.php/database_stores/store_view/17 (Each file is in pdf format so you will have to extract it). Save as `data/dengue_2022_2024.xlsx`
+
+2. **Weather (NASA POWER API)**  
+   Latitude: 3.0728, Longitude: 101.4235 (Selangor). Use NASA POWER REST API to download daily variables and aggregate to weekly. Save each variable to folder data/weather/, then create a new folder with the name of the weather variable (Precipitation/Humidity/Temperature/Windspeed)/West Malaysia/ and save each year of the specific variable there e.g. Humidity 2011, then run the notebook's preprocessing cell to produce weekly aggregates.
+
+Important:
+- The `notebooks/01_analysis_overview.ipynb` will not run unless you follow the steps above to download the files/extract them.
