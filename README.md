@@ -6,7 +6,7 @@ This repository contains materials for a project investigating whether short-ter
 What’s here
 - `Executive Summary.pdf` - one-page executive summary of the project and main results.
 - `notebooks/01_analysis_overview.ipynb` - cleaned notebook demonstrating the analysis workflow. Original data are not included.
-- `DATA_INSTRUCTIONS.md` - instructions to download the public datasets used in this study. (To be added)
+- `DATA_INSTRUCTIONS.md` - instructions to download the public datasets used in this study.
 - `requirements.txt` - packages and versions.
 
 Important note about data
