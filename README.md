@@ -1,6 +1,6 @@
 # Identifying Predictors of High Dengue Incidence in Malaysia 
 
-Short description
+Short description <br>
 This repository contains materials for a project investigating whether short-term engineered weather signals (temperature, precipitation, humidity, windspeed) improve early detection of dengue surges in Malaysia. The work uses weekly dengue surveillance (2011–2024) from the Open Dengue Project and MoH portal’s database, and weather from the NASA POWER API and evaluates XGBClassifier models with explainability (SHAP), permutation importance and ablation testing.
 
 What’s here
