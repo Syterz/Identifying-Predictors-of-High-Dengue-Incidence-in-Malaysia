@@ -10,4 +10,4 @@ What’s here
 - `requirements.txt` - packages and versions.
 
 Important note about data
-The original dengue and weather datasets used in the analysis are **not** included for privacy and size reasons. See `DATA_INSTRUCTIONS.md` for download links and steps to reproduce the analysis.
+The original dengue and weather datasets used in the analysis are **not** included for privacy reasons. See `DATA_INSTRUCTIONS.md` for download links and steps to reproduce the analysis.
